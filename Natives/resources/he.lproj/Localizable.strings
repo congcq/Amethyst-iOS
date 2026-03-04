@@ -4,8 +4,8 @@
 */
 
 "game.menu.force_close" = "כפה כיבוי";
-"game.menu.confirm.force_close" = "האם את/ה בטוח/ה שאת/ה רוצה לסגור בכוח?";
-"game.menu.log_output" = "לוג פלט";
+"game.menu.confirm.force_close" = "לאלץ סגירה?";
+"game.menu.log_output" = "פלט יומן";
 "game.menu.custom_controls" = "פקדים מותאמים אישית";
 
 "game.title.exit_code" = "המשחק נסגר עם קוד %d";
@@ -19,8 +19,9 @@
 "Unstable" = "לא יציב";
 "Old-beta" = "בטא: גרסה ישנה";
 "Old-alpha" = "אלפא: גרסה ישנה";
-"Edit" = "ערוך";
-"Remove" = "הסר";
+"Edit" = "עריכה";
+"Remove" = "הסרה";
+"Resize" = "שינוי גודל";
 // Visibility
 "Always" = "תמיד";
 "In game" = "במשחק";
@@ -34,14 +35,15 @@
 "custom_controls.button_edit.swipeable" = "ניתן להחלקה";
 "custom_controls.button_edit.bg_color" = "צבע הרקע";
 "custom_controls.button_edit.stroke_color" = "צבע קו המתאר";
+"custom_controls.button_edit.opacity" = "אטימות (%)";
 
 "custom_controls.button_menu.add_subbutton" = "הוסף תת-כפתור";
-"custom_controls.control_menu.discard_changes" = "בטל/י שינויים";
+"custom_controls.control_menu.discard_changes" = "השלכת שינויים";
 "custom_controls.control_menu.exit" = "צא";
-"custom_controls.control_menu.save" = "שמור";
+"custom_controls.control_menu.save" = "שמירה";
 "custom_controls.control_menu.save.error.json" = "שגיאת JSON";
 "custom_controls.control_menu.save.error.write" = "שגיאה בשמירת הקובץ";
-"custom_controls.control_menu.load" = "טען";
+"custom_controls.control_menu.load" = "טעינה";
 "custom_controls.control_menu.add_button" = "הוסף כפתור";
 "custom_controls.hint" = "לחיצה ארוכה בכל מקום על המסך לקבלת אפשרויות נוספות";
 "java.error.missing_runtime" = "%@ דורש Java %d או גרסה מתקדמת יותר כדי לפעול. אנא התקנ/י אותו תחילה וציינ/י אותו בניהול Java Runtime.";
@@ -50,11 +52,11 @@
 "launcher.mcl.error_download" = "הורדת %@ נכשלה: %@";
 
 "launcher.menu.custom_controls" = "פקדים מותאמים אישית";
-"launcher.menu.execute_jar" = "הפעל/י .jar";
+"launcher.menu.execute_jar" = "הרצת קובץ ‎.jar";
 
 "launcher.wait_jit.title" = "מחכה ל-JIT";
 "launcher.wait_jit.message" = "Amethyst מסתמך על קומפילציה של Just-in-time כדי ש-Java תעבוד בביצועים מקסימליים.";
-"launcher.wait_jit_trollstore.message" = "אם אתה עדיין רואה הודעה זו, אנא הפעל/י את סכמת ה-URL ב-TrollStore.";
+"launcher.wait_jit_trollstore.message" = "אם עדיין רואים הודעה זו, נא להפעל/י את סכמת הכתובות ב־TrollStore.";
 
 "login.error.username.outOfRange" = "שם המשתמש חייב להיות באורך של לפחות 3 תווים ומקסימום 16 תווים";
 
@@ -68,14 +70,17 @@
 "login.jit.fail.description_unsupported" = "זוהתה שיטת התקנה שאינה נתמכת. אנא התקן מחדש באמצעות אחת מהשיטות הנתמכות.";
 
 // Login buttons
-"login.menu.sendlogs" = "שלח/י חוגים שלכ/ה";
-"login.option.add" = "הוספ/י חשבון";
-"login.option.select" = "בחר חשבון";
-"login.option.demo" = "חשבון דמו";
+"login.menu.sendlogs" = "שליחת פלט היומן";
+"login.option.add" = "הוספת חשבון";
+"login.option.select" = "בחירת חשבון";
+"login.option.demo" = "חשבון הדגמה";
 "login.option.microsoft" = "חשבון מיקרוסופט";
+"login.option.local" = "חשבון מקומי";
 
 "News" = "חדשות";
 "Settings" = "הגדרות";
+
+"preference.section.general" = "הגדרות כלליות";
 "preference.section.control" = "התאמה אישית של פקדים";
 //"preference.section.footer.control" = "";
 "preference.section.java" = "התאמות ל- Java";
@@ -84,9 +89,22 @@
 
 "preference.title.renderer" = "רינדור";
 
+"preference.title.renderer.release.auto" = "אוטומטי";
+"preference.title.gesture_mouse" = "מחוות עכבר";
+
 "preference.title.java_args" = "פרמטרים להפעלת JVM";
 "preference.title.auto_ram" = "זיכרון אוטומטי";
 "preference.detail.auto_ram" = "מפעיל התאמת RAM אוטומטית";
 "preference.detail.allocated_memory" = "שולט בכמות הזיכרון הניתנת ל- Minecraft";
+"preference.title.debug_auto_correction" = "תיקון אוטומטי";
 
 "preference.profile.title.name" = "שם";
+"preference.profile.title.version_type" = "סוג גרסה";
+"controller_configurator.xbox.title.dpad_up" = "למעלה";
+"controller_configurator.xbox.title.dpad_down" = "למטה";
+"controller_configurator.xbox.title.dpad_left" = "שמאלה";
+"controller_configurator.xbox.title.dpad_right" = "ימינה";
+"controller_configurator.playstation.title.dpad_up" = "למעלה";
+"controller_configurator.playstation.title.dpad_down" = "למטה";
+"controller_configurator.playstation.title.dpad_left" = "שמאלה";
+"controller_configurator.playstation.title.dpad_right" = "ימינה";
