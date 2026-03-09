@@ -67,6 +67,9 @@
 
 "init.migrateDir" = "La carpeta de Amethyst ahora está en %@. Todos tus datos han sido movidos a esa nueva ubicación.";
 
+"java.error.missing_main_class" = "%@ no tiene un atributo de clase principal. Si se trata de un mod, ponlo en la carpeta \"mods\" de su instancia seleccionada.";
+"java.error.missing_runtime" = "%@ requiere Java %d o posterior para ejecutarse. Por favor, instálelo primero y especifíquelo en Administrar runtimes.";
+
 "launcher.mcl.downloading_file" = "Descargando %@";
 "launcher.mcl.error_download" = "Error al descargar %@: %@";
 
@@ -205,10 +208,13 @@
 "preference.detail.slideable_hotbar" = "Permite deslizarse en el hotbar como la rueda del ratón";
 
 "preference.title.gyroscope_enable" = "Activar controles de giroscopio";
+
+"preference.title.manage_runtime" = "Administrar runtimes";
 "preference.title.confirm.delete_runtime" = "%@ se eliminará";
 "preference.manage_runtime.header.default" = "Versión de Java preferida";
 "preference.manage_runtime.default.1165" = "1.16.5 y anteriores";
 "preference.manage_runtime.default.117" = "1.17 y más recientes";
+"preference.manage_runtime.footer.default" = "Minecraft 1.16.5 y versiones anteriores pueden ejecutarse con una versión más reciente de Java; sin embargo, la compatibilidad con los mods no está garantizada. Los runtimes externos pueden colocarse en la carpeta “java_runtimes”. Cambiar la versión de Java para “Ejecutar .jar” solo surte efecto si el instalador no requiere una versión más reciente de Java.";
 "preference.manage_runtime.header.invalid" = "Tiempos de ejecución inválidos";
 
 "preference.title.java_args" = "JRE Argumentos de lanzamiento";
@@ -252,11 +258,34 @@
 "controller_configurator.xbox.title.named_b" = "B";
 "controller_configurator.xbox.title.named_x" = "X";
 "controller_configurator.xbox.title.named_y" = "Y";
+"controller_configurator.xbox.title.dpad_up" = "Arriba";
+"controller_configurator.xbox.title.dpad_down" = "Abajo";
 "controller_configurator.xbox.title.dpad_left" = "Izquierda";
 "controller_configurator.xbox.title.dpad_right" = "Derecha";
+"controller_configurator.xbox.title.thumb_left" = "L3";
+"controller_configurator.xbox.title.thumb_right" = "R3";
+
+"controller_configurator.playstation.title.bumper_left" = "L1";
+"controller_configurator.playstation.title.bumper_right" = "R1";
+"controller_configurator.playstation.title.trigger_left" = "L2";
+"controller_configurator.playstation.title.trigger_right" = "R2";
 "controller_configurator.playstation.title.named_back" = "Seleccionar";
+"controller_configurator.playstation.title.named_start" = "Start";
+"controller_configurator.playstation.title.named_a" = "X";
 "controller_configurator.playstation.title.named_b" = "Círculo";
 "controller_configurator.playstation.title.named_x" = "Cuadrado";
 "controller_configurator.playstation.title.named_y" = "Triángulo";
+"controller_configurator.playstation.title.dpad_up" = "Arriba";
+"controller_configurator.playstation.title.dpad_down" = "Abajo";
 "controller_configurator.playstation.title.dpad_left" = "Izquierda";
 "controller_configurator.playstation.title.dpad_right" = "Derecha";
+"controller_configurator.playstation.title.thumb_left" = "L3";
+"controller_configurator.playstation.title.thumb_right" = "R3";
+
+"controller_configurator.section.config_files" = "Archivo de configuración actual";
+"controller_configurator.section.game_mappings" = "Mapeos de control del juego";
+"controller_configurator.section.footer.game_mappings" = "Mapeos de control cuando el mouse está bloqueado en el juego.";
+"controller_configurator.section.menu_mappings" = "Mapeos de control del menú";
+"controller_configurator.section.footer.menu_mappings" = "Mapeos de control cuando el mouse no está bloqueado, como en la pantalla principal o el menú de pausa.";
+"controller_configurator.section.controller_style" = "Tipo de controlador";
+"controller_configurator.section.footer.controller_style" = "Mostrar distintos nombres de botones de controlador en este configurador.";
