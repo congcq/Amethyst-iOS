@@ -38,7 +38,7 @@ jobs:
 
       - name: Set up Xcode version
         uses: maxim-lobanov/setup-xcode@master
-          with:
+        with:
             xcode-version: '26.1'
 
       - name: Install includes
