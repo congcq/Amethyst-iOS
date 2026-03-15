@@ -19,7 +19,7 @@ jobs:
           - platform: 2
             platform_name: ios
     
-    runs-on: J316sAP
+    runs-on: macos-latest
     steps:
       - name: Remove work folders
         run: |
@@ -35,6 +35,10 @@ jobs:
 
       - name: Checkout repository submodules
         run: git submodule update --init --recursive
+
+      - name: Install includes
+        run: |
+          brew install make ldid temurin@8
 
       - name: Get gl4es latest commit hash
         id: gl4es-sha
