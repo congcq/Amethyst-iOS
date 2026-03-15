@@ -36,6 +36,11 @@ jobs:
       - name: Checkout repository submodules
         run: git submodule update --init --recursive
 
+      - name: Set up Xcode version
+        uses: maxim-lobanov/setup-xcode@master
+          with:
+            xcode-version: '26.1'
+
       - name: Install includes
         run: |
           brew install make ldid temurin@8
